@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url(/MOTS\ Background.png);
+    background-image: url('../designs/MOTSP/MOTSP Background.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -28,4 +28,21 @@ body {
     position: relative;
     top:50%;
     transform: translateY(-50%);
+}
+
+
+#timeline-container {
+    position: absolute;
+    
+    
+}
+
+#timeline {
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#timeline li {
+    margin: 5px 0;
 }
